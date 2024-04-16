@@ -11,13 +11,13 @@ body, html {
     justify-content: center;
     align-items: center;
     height: 100vh; /* Full viewport height */
-    background-color: black; /* Background color */
+    /*background-color: black;  Background color */
 }
 
 /* Coming Soon text styling */
 .coming-soon {
     color: orange; /* Text color */
-    font-size: 3em; /* Text size */
+    font-size: 7em; /* Text size */
     text-align: center;
 }
 
@@ -44,8 +44,8 @@ body {
     background-attachment: fixed;
 
     /* This is what makes the background image rescale based
-    on the container's size */
-    background-size: cover;
+    on the container's size 
+    background-size: cover;*/
 
     /* Set a background color that will be displayed
     while the background image is loading */
